@@ -1,0 +1,209 @@
+.body{
+    height: max-content;
+    width: 1500px;
+}
+#Dhoomketu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-display:inherit;
+    font-language-override: normal;
+    padding-left: 30px;
+
+}
+.box1{
+    width: 1500px;
+    height: 86px;
+    background: linear-gradient(#ECDCFF,#FFFFFF);
+    display: flex;
+    align-content: flex-start;
+}
+#logo{
+    width: 90px;
+    height: 30px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+#text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+.image{
+    padding-right: 100px;
+}
+.button{
+    padding-left: 75px;
+    padding-top: 35px;
+}
+.welcome {
+    flex-grow: 1; /* Allow the welcome text to take up available space */
+    text-align: center; /* Center the welcome text */
+}
+
+.button {
+    padding-right: 60px; /* Space from the right edge */
+}
+#btn{
+    border-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: medium;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Base font size */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+    box-shadow: #00e5ffb8;
+
+}
+#btn:hover{
+transform: scale(1.1);
+box-shadow: #00e5ffb8;
+}
+.search-container {
+    flex-grow: 1; /* Allow the search bar to take up available space */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the search bar */
+    padding: 0 20px; /* Add some horizontal padding */
+    height: 28px;
+    width: 500px;
+    padding: 0 20px;
+    padding-top: 40px;
+}
+
+#search-bar {
+    width: 70%; /* Full width of the container */
+    max-width: 300px; /* Maximum width for the search bar */
+    padding: 10px; /* Padding inside the search bar */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+#search-bar:focus {
+    border-color: #007BFF; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+#search-bar:hover{
+    transition: transform 0.3s ease;
+}
+#search-btn {
+    padding: 10px 15px; /* Padding inside the button */
+    margin-left: 10px; /* Space between the search bar and button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    padding-bottom: 23px;
+    height: 28px;
+    width: 100px;
+
+}
+
+#search-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.store1{
+    height: 270px; /* Adjust height based on content */
+    width: 270px;
+    background-color: white; /* White background for the login box */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-sizing: border-box; /* Include padding in width/height */
+    border-color: #6a4141bd;
+    box-shadow: rgb(0, 0, 0);
+}
+.teapost{
+    width: 223px; /* Make the image take the full width of the box */
+    height: 200px; /* Make the image take the full height of the box */
+    object-fit: cover; /* Ensure the image covers the box without distortion */
+    border-radius: 10px; /* Match the box's rounded corners */
+}
+
+.teapost {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.visit-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff5722;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 53px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.942);
+}
+
+.visit-btn:hover {
+    background-color: #e64a19;
+}
+.size0{
+    height: min-content;
+    width: 223px;
+    padding-left: 5px;
+}
+.s-btn{
+    margin-top: 3px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff5722;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 53px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.942);
+    margin-top: 5px;
+}
+.s.btn:hover{
+    background-color: #e64a19;
+}
+.l-btn{
+    margin-top: 3px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff5722;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 53px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.942);
+    margin-top: 5px;
+}
+.l.btn:hover{
+    background-color: #e64a19;
+}
+.stores{
+    margin-top: 30px;
+}
